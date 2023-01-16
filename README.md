@@ -1,4 +1,4 @@
-# Icon Agency Drupal Integrations
+# Preferred eslint config
 
 Trying to lighten the neutron star that is core/package.json.
 
