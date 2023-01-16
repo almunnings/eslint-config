@@ -1,0 +1,7 @@
+/.gitattributes export-ignore
+/.gitignore export-ignore
+/.nvmrc export-ignore
+/renovate.json export-ignore
+/package-lock.json export-ignore
+/.github export-ignore
+/core/refresh.sh export-ignore

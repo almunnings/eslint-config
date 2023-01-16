@@ -1,0 +1,6 @@
+/.gitattributes
+/.nvmrc
+/.github
+/renovate.json
+/bitbucket-pipelines.yml
+core/refresh.sh

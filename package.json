@@ -1,0 +1,42 @@
+{
+  "name": "@almunnings/eslint-config",
+  "description": "Metapackage deps for Al Munnings.",
+  "license": "MIT",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almunnings/eslint-config.git"
+  },
+  "main": "drupal.js",
+  "dependencies": {
+    "@babel/eslint-parser": "^7.18.9",
+    "deepmerge": "^4.2.2",
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jquery": "^1.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-prettier-vue": "^4.0.0",
+    "eslint-plugin-vue": "^9.0.1",
+    "eslint-plugin-yml": "^1.0.0",
+    "postcss-scss": "^4.0.0",
+    "prettier": "^2.1.2",
+    "stylelint": "^14.0.0",
+    "stylelint-checkstyle-formatter": "^0.1.2",
+    "stylelint-config-standard": "^26.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.0.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "stylelint",
+    "prettier",
+    "drupal",
+    "icon",
+    "lint"
+  ],
+  "devDependencies": {}
+}
