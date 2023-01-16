@@ -1,6 +1,5 @@
 /.gitattributes
 /.nvmrc
 /.github
-/renovate.json
-/bitbucket-pipelines.yml
+/package-lock.json
 core/refresh.sh
