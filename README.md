@@ -6,41 +6,47 @@ Opinionated lint requirements on top of CMS cores for custom themes.
 
 ## Usage
 
-`npm i --save-dev @iconagency/eslint-config`
+`npm i --save-dev @almunnings/eslint-config`
 
 `.eslintrc`
+
 ```json
 {
-  "extends": ["@iconagency/eslint-config/drupal"],
-  "root": true 
+  "extends": ["@almunnings/eslint-config/drupal"],
+  "root": true
 }
 ```
 
 `.stylelintrc`
+
 ```json
 {
-  "extends": ["@iconagency/eslint-config/style"],
+  "extends": ["@almunnings/eslint-config/style"]
 }
-
 ```
 
 `.prettierrc.js`
+
 ```js
 module.exports = {
-  ...require("@iconagency/eslint-config/prettier")
+  ...require("@almunnings/eslint-config/prettier"),
 };
 ```
 
 or
 
 `package.json`
+
 ```json
 {
   "devDependencies": {
-    "@iconagency/eslint-config": "^0.0.1"
+    "@almunnings/eslint-config": "^0.0.1"
   },
-  "eslintConfig": { "extends": ["@iconagency/eslint-config/drupal"], "root": true },
-  "stylelint": { "extends": ["@iconagency/eslint-config/style"] },
-  "prettier": "@iconagency/eslint-config/prettier"
+  "eslintConfig": {
+    "extends": ["@almunnings/eslint-config/drupal"],
+    "root": true
+  },
+  "stylelint": { "extends": ["@almunnings/eslint-config/style"] },
+  "prettier": "@almunnings/eslint-config/prettier"
 }
 ```
