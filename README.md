@@ -40,7 +40,7 @@ or
 ```json
 {
   "devDependencies": {
-    "@almunnings/eslint-config": "^0.0.1"
+    "@almunnings/eslint-config": "^0.0.3"
   },
   "eslintConfig": {
     "extends": ["@almunnings/eslint-config/drupal"],
