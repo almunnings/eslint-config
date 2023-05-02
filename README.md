@@ -50,3 +50,34 @@ or
   "prettier": "@almunnings/eslint-config/prettier"
 }
 ```
+
+## Vscode
+
+### Recommended addons
+
+- EsLint
+- Prettier - Code formatter
+- Stylelint
+
+### Recommended settings
+
+```json
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "editor.formatOnPaste": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": false,
+    "editor.formatOnPaste": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    }
+  },
+```
