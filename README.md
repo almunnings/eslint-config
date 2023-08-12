@@ -71,6 +71,9 @@ or
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[scss]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": false,
@@ -80,4 +83,15 @@ or
       "source.fixAll.stylelint": true
     }
   },
+  "[vue]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": false,
+    "editor.formatOnPaste": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
 ```
