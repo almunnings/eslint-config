@@ -11,7 +11,7 @@ const opinionated = {
     "class-methods-use-this": 0,
     "new-cap": "warn",
     "prefer-const": "warn",
-    "no-new": 0,
+    "no-new": 0
   },
   "globals": {
     "$": true
@@ -19,7 +19,8 @@ const opinionated = {
   "parser": "@babel/eslint-parser",
   "parserOptions": {
     "allowImportExportEverywhere": true,
-    "requireConfigFile": false
+    "requireConfigFile": false,
+    "ecmaVersion": "latest"
   }
 }
 
